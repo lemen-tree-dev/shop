@@ -1,0 +1,18 @@
+server:
+  port: 8000
+spring:
+  application:
+    name: shop-server
+
+eureka:
+  client:
+    # 表示是否将自己注册到Eureka Server，默认为true。
+    register-with-eureka: false
+    # 表示是否从Eureka Server获取注册信息，默认为true。
+    fetch-registry: false
+    # 设置与Eureka Server交互的地址，查询服务和注册服务都需要依赖这个地址。默认是http://localhost:8000/eureka ；多个地址可使用,分隔
+    service-url:
+      defaultZone: http://localhost:8000/eureka/
+  server:
+    eviction-interval-timer-in-ms: 1000     # 续期时间，即扫描失效服务的间隔时间（单位毫秒，默认是60*1000）测试时关闭自我保护机制，保证不可用服务及时踢出
+    enableSelfPreservation: false    # 设为false，关闭自我保护
