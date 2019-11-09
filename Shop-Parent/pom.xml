@@ -13,6 +13,7 @@
         <module>../Shop-Config</module>
         <module>../Shop-Zuul</module>
         <module>../Shop-Model</module>
+        <module>../Shop-User</module>
     </modules>
 
     <parent>
