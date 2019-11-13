@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.shop.dao.AdminMapper" >
+    <resultMap id="AdminResultMap" type="com.shop.domain.Admin" >
+        <id column="admin_id" property="adminId" jdbcType="INTEGER" />
+        <result column="admin_name" property="adminName" jdbcType="VARCHAR" />
+        <result column="admin_password" property="adminPassword" jdbcType="VARCHAR" />
+        <result column="admin_createtime" property="adminCreatetime" jdbcType="TIMESTAMP" />
+    </resultMap>
+    <resultMap id="AdminPermissionResultMap" type="com.shop.domain.AdminPermission" >
+        <id column="permission_id" property="permissionId" jdbcType="INTEGER" />
+        <result column="permission_name" property="permissionName" jdbcType="VARCHAR" />
+    </resultMap>
+    <sql id="Admin_Base_Column_List" >
+    admin_id, admin_name, admin_password, admin_createtime
+    </sql>
+    <insert id="addAdmin" parameterType="admin">
+        INSERT INTO admin (admin_name,admin_password,admin_createtime)VALUES (#{adminName},#{adminPassword},#{adminCreatetime})
+    </insert>
+    <select id="selectByName" resultMap="AdminResultMap" parameterType="string" >
+        SELECT
+            <include refid="Admin_Base_Column_List" />
+        FROM admin
+            WHERE admin_name= #{adminName,jdbcType=VARCHAR}
+    </select>
+    <select id="queryPermissionsByLoginName" resultMap="AdminPermissionResultMap" parameterType="string">
+        SELECT p.* FROM
+	        admin a,
+	        admin_permission p,
+	        ap_table ap
+        WHERE
+	        a.admin_name = #{adminName,jdbcType=VARCHAR}
+	        AND a.admin_id = ap.admin_id
+	        AND ap.permission_id = p.permission_id
+    </select>
+    <select id="selectAll" resultMap="AdminResultMap">
+        SELECT
+            <include refid="Admin_Base_Column_List" />
+        FROM admin
+    </select>
+</mapper>

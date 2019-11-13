@@ -14,6 +14,7 @@
         <module>../Shop-Zuul</module>
         <module>../Shop-Model</module>
         <module>../Shop-User</module>
+        <module>../Shop-Admin</module>
     </modules>
 
     <parent>
