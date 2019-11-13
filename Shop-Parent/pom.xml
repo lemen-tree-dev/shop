@@ -15,6 +15,7 @@
         <module>../Shop-Model</module>
         <module>../Shop-User</module>
         <module>../Shop-Admin</module>
+        <module>../Shop-Product</module>
     </modules>
 
     <parent>

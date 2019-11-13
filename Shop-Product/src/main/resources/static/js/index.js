@@ -285,6 +285,14 @@ function marquee() {
 }
 /*页面加载时*/
 $(function () {
+    $.ajax({
+        type: 'post',
+        url:"http://localhost:9000/shop-product/chaxun",
+        dataType:"json",
+        success:function (data) {
+
+        }
+    });
     alert("welcome")
 
 });
