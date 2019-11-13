@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.shop.dao.GoodsMapper">
+
+    <resultMap id="BaseResultMap" type="com.shop.domain.Goods" >
+        <id column="goods_id" property="goodsId" jdbcType="INTEGER" />
+        <result column="goods_name" property="goodsName" jdbcType="VARCHAR" />
+        <result column="goods_price" property="goodsPrice" jdbcType="DECIMAL" />
+        <result column="goods_pic" property="goodsPic" jdbcType="VARCHAR" />
+        <result column="goods_descr" property="goodsDescr" jdbcType="VARCHAR" />
+        <result column="goods_discount" property="goodsDiscount" jdbcType="DECIMAL" />
+        <result column="goods_stock" property="goodsStock" jdbcType="INTEGER" />
+        <result column="goods_count" property="goodsCount" jdbcType="INTEGER" />
+        <result column="menuFootId" property="menuFootId" jdbcType="INTEGER" />
+        <result column="menuFootName" property="menuFootName" jdbcType="INTEGER" />
+    </resultMap>
+
+    <resultMap id="BaseResultMap1" type="com.shop.domain.GoodsInfo" >
+        <id column="goods_info_id" property="goodsInfoId" jdbcType="INTEGER" />
+        <result column="goods_info_pic1" property="goodsInfoPic1" jdbcType="VARCHAR" />
+        <result column="goods_info_pic2" property="goodsInfoPic2" jdbcType="VARCHAR" />
+        <result column="goods_info_pic3" property="goodsInfoPic3" jdbcType="VARCHAR" />
+        <result column="goods_info_vidio" property="goodsInfoVidio" jdbcType="VARCHAR" />
+        <result column="goods_info_descr" property="goodsInfoDescr" jdbcType="VARCHAR" />
+    </resultMap>
+
+    <select id="selectAll" resultMap="BaseResultMap">
+
+        select * from goods
+
+    </select>
+
+    <select id="selectGoodsInfo" parameterType="Integer" resultMap="BaseResultMap1">
+
+        select * from gi_table gi LEFT JOIN goods gs on gs.goods_id=gi.goods_id LEFT JOIN goods_info gf on gf.goods_info_id=gi.goods_info_id
+        where gi.goods_id=#{goodsId}
+
+    </select>
+
+</mapper>

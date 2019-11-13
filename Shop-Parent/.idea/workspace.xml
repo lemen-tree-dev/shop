@@ -1,234 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a34dbe48-ddb0-4d7e-83df-b9081f4a94be" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/java/com/shop/ShopAdminApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/java/com/shop/config/ShiroConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/java/com/shop/controller/AdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/java/com/shop/controller/BaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/java/com/shop/controller/HTMLController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/java/com/shop/dao/AdminMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/java/com/shop/service/AdminService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/java/com/shop/service/impl/AdminServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/java/com/shop/shiro/AdminRealm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/java/com/shop/utils/MD5Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/mapper/AdminMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/css/default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/css/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/css/kitadmin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/css/layui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/css/layui.mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/css/loaders.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/css/modules/code.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/css/modules/laydate/default/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/css/modules/layer/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/css/modules/layer/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/css/modules/layer/default/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/css/modules/layer/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/css/modules/layer/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/css/modules/layer/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/css/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/css/nprogress.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/css/page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/css/theme/blue-dark.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/css/theme/blue-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/css/theme/default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/css/theme/green-dark.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/css/theme/green-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/css/theme/purple-dark.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/css/theme/purple-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/css/theme/red-dark.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/css/theme/red-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/font/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/font/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/font/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/font/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/fonts/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/fonts/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/fonts/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/fonts/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/17.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/19.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/20.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/21.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/22.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/23.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/25.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/26.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/27.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/28.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/29.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/30.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/31.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/32.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/33.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/34.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/35.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/36.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/37.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/38.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/39.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/40.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/41.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/42.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/43.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/44.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/45.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/46.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/47.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/48.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/49.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/51.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/52.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/53.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/54.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/55.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/56.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/57.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/58.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/59.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/60.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/61.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/62.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/63.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/65.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/66.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/67.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/68.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/69.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/70.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/71.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/images/face/9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/img/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/img/Detector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/img/RequestAnimationFrame.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/img/ThreeExtras.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/img/ThreeWebGL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/img/cloud.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/img/key.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/img/lock_icon_copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/img/puff.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/img/tick.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/img/user_icon_copy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/js/Particleground.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/js/Treatment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/js/jquery-2.1.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/js/jquery.mockjax.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/js/jquery.z-pager.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/js/kitadmin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/js/mockjs-config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/js/polyfill.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/js/stopExecutionOnTimeout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/kitadmin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/lay/kit_modules/admin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/lay/kit_modules/axios.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/lay/kit_modules/cascader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/lay/kit_modules/component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/lay/kit_modules/inputnumber.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/lay/kit_modules/kit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/lay/kit_modules/layout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/lay/kit_modules/lodash.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/lay/kit_modules/menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/lay/kit_modules/mockjs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/lay/kit_modules/mockjsbase.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/lay/kit_modules/nprogress.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/lay/kit_modules/route.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/lay/kit_modules/select.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/lay/kit_modules/sidebar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/lay/kit_modules/tabs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/lay/kit_modules/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/lay/modules/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/lay/modules/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/lay/modules/element.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/lay/modules/flow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/lay/modules/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/lay/modules/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/lay/modules/laydate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/lay/modules/layedit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/lay/modules/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/lay/modules/laypage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/lay/modules/laytpl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/lay/modules/mobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/lay/modules/rate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/lay/modules/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/lay/modules/tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/lay/modules/upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/lay/modules/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/layui.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/layui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/layui/css/global.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/layui/css/layui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/layui/css/layui.mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/layui/css/modules/code.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/layui/css/modules/laydate/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/layui/css/modules/laydate/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/layui/css/modules/layer/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/layui/css/modules/layer/default/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/layui/lay/modules/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/layui/lay/modules/element.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/layui/lay/modules/flow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/layui/lay/modules/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/layui/lay/modules/laydate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/layui/lay/modules/layedit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/layui/lay/modules/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/layui/lay/modules/laypage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/layui/lay/modules/laytpl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/layui/lay/modules/mobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/layui/lay/modules/tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/layui/lay/modules/upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/layui/lay/modules/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/layui/layui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/mockjs-config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/polyfill.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/templates/admingoods.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/templates/admininfo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/templates/adminlogin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Admin/src/main/resources/templates/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Shop-Zuul/src/main/java/com/shop/filter/JwtFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Shop-Config/target/classes/com/shop/ShopConfigApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Shop-Config/target/classes/com/shop/ShopConfigApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Shop-Server/target/classes/com/shop/ShopServerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Shop-Server/target/classes/com/shop/ShopServerApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Shop-User/Shop-User.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Shop-User/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Shop-User/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Shop-Zuul/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../Shop-Zuul/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Shop-Zuul/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../Shop-Zuul/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Shop-Zuul/target/classes/com/shop/ShopZuulApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Shop-Zuul/target/classes/com/shop/ShopZuulApplication.class" afterDir="false" />
-    </list>
+    <list default="true" id="a34dbe48-ddb0-4d7e-83df-b9081f4a94be" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../Shop-Server/target/" />
@@ -238,6 +11,7 @@
     <ignored path="$PROJECT_DIR$/../Shop-User/target/" />
     <ignored path="$PROJECT_DIR$/../Shop-Admin/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -262,99 +36,81 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Shop-Admin/src/main/resources/templates/main.html">
+      <file leaf-file-name="Goods.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Shop-Model/src/main/java/com/shop/domain/Goods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+            <state relative-caret-position="340">
+              <caret line="26" column="31" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Shop-Admin/src/main/java/com/shop/controller/AdminController.java">
+      <file leaf-file-name="GoodsMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Shop-Product/src/main/resources/mapper/GoodsMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="62" column="35" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
+            <state relative-caret-position="340">
+              <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoodController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Shop-Product/src/main/java/com/shop/controller/GoodController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="80" column="40" selection-start-line="80" selection-start-column="40" selection-end-line="80" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1252#1253#0" expanded="true" />
-                <element signature="e#1303#1304#0" expanded="true" />
-                <element signature="e#2551#2552#0" expanded="true" />
+                <element signature="e#2005#2006#0" expanded="true" />
+                <element signature="e#2051#2052#0" expanded="true" />
+                <element signature="e#2004#2005#0" expanded="true" />
+                <element signature="e#2034#2035#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../Shop-Admin/src/main/resources/templates/adminlogin.html">
+      <file leaf-file-name="GoodsService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Shop-Product/src/main/java/com/shop/service/GoodsService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="180" column="32" selection-start-line="180" selection-start-column="32" selection-end-line="180" selection-end-column="49" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state>
+              <caret column="25" selection-start-column="25" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Documents/Tencent Files/693556147/FileRecv/非常炫酷的系统登录页/login/index.html">
+      <file leaf-file-name="GoodsServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Shop-Product/src/main/java/com/shop/service/impl/GoodsServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="171" column="115" lean-forward="true" selection-start-line="171" selection-start-column="115" selection-end-line="171" selection-end-column="115" />
+            <state relative-caret-position="112">
+              <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Shop-Admin/src/main/resources/templates/admininfo.html">
+      <file leaf-file-name="EsServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Shop-Product/src/main/java/com/shop/service/impl/EsServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="245">
+              <caret line="47" column="34" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Shop-Admin/src/main/java/com/shop/controller/HTMLController.java">
+      <file leaf-file-name="EsService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Shop-Product/src/main/java/com/shop/service/EsService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#329#330#0" expanded="true" />
-                <element signature="e#364#365#0" expanded="true" />
-                <element signature="e#519#520#0" expanded="true" />
-                <element signature="e#548#549#0" expanded="true" />
-                <element signature="e#691#692#0" expanded="true" />
-                <element signature="e#726#727#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="199">
+              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Shop-Admin/src/main/resources/templates/admingoods.html">
+      <file leaf-file-name="GoodsMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Shop-Product/src/main/java/com/shop/dao/GoodsMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-40">
-              <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../前端/分页/Page/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="33" column="13" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="33" selection-end-column="13" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="264">
+              <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -383,12 +139,20 @@
       <find>jquery</find>
     </findStrings>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/../Shop-Server/pom.xml" />
+        <option value="$PROJECT_DIR$/../Shop-Server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/../Shop-Server/src/main/java/com/shop/ShopServerApplication.java" />
+        <option value="$PROJECT_DIR$/../Shop-Config/pom.xml" />
+        <option value="$PROJECT_DIR$/../Shop-Config/src/main/java/com/shop/ShopConfigApplication.java" />
+        <option value="$PROJECT_DIR$/../Shop-Config/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../Shop-Zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/../Shop-Zuul/src/main/java/com/shop/ShopZuulApplication.java" />
+        <option value="$PROJECT_DIR$/../Shop-Model/src/main/java/com/shop/domain/Admin.java" />
+        <option value="$PROJECT_DIR$/../Shop-Model/src/main/java/com/shop/domain/AdminPermission.java" />
         <option value="$PROJECT_DIR$/../Shop-Model/src/main/java/com/shop/domain/ApTable.java" />
         <option value="$PROJECT_DIR$/../Shop-Model/src/main/java/com/shop/domain/Cart.java" />
         <option value="$PROJECT_DIR$/../Shop-Model/src/main/java/com/shop/domain/Comment.java" />
@@ -411,43 +175,29 @@
         <option value="$PROJECT_DIR$/../Shop-Model/pom.xml" />
         <option value="$PROJECT_DIR$/../Shop-Model/src/main/java/com/shop/config/AlipayNotifyParam.java" />
         <option value="$PROJECT_DIR$/../Shop-Model/src/main/java/com/shop/utils/AlipayUtils.java" />
+        <option value="$PROJECT_DIR$/../Shop-User/pom.xml" />
         <option value="$PROJECT_DIR$/../Shop-User/src/main/resources/bootstrap.properties" />
         <option value="$PROJECT_DIR$/../Shop-User/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/../Shop-User/src/main/java/com/shop/ShopUserApplication.java" />
         <option value="$PROJECT_DIR$/../Shop-Config/src/main/resources/properties/neo-config-pro.properties" />
         <option value="$PROJECT_DIR$/../Shop-User/src/main/java/com/shop/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/../Shop-User/pom.xml" />
-        <option value="$PROJECT_DIR$/../Shop-Admin/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/../Shop-Admin/src/main/java/com/shop/utils/MD5Utils.java" />
-        <option value="$PROJECT_DIR$/../Shop-Admin/src/main/java/com/shop/config/ShiroConfig.java" />
-        <option value="$PROJECT_DIR$/../Shop-Admin/src/main/java/com/shop/shiro/AdminRealm.java" />
-        <option value="$PROJECT_DIR$/../Shop-Admin/src/main/java/com/shop/ShopAdminApplication.java" />
-        <option value="$PROJECT_DIR$/../Shop-Admin/src/main/java/com/shop/dao/AdminMapper.java" />
-        <option value="$PROJECT_DIR$/../Shop-Admin/src/main/resources/mapper/AdminMapper.xml" />
-        <option value="$PROJECT_DIR$/../Shop-Admin/src/main/java/com/shop/service/AdminService.java" />
-        <option value="$PROJECT_DIR$/../Shop-Admin/src/main/java/com/shop/service/impl/AdminServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../Shop-Admin/src/main/java/com/shop/controller/ExceptionController.java" />
-        <option value="$PROJECT_DIR$/../Shop-Admin/src/main/java/com/shop/controller/BaseController.java" />
-        <option value="$PROJECT_DIR$/../Shop-Admin/pom.xml" />
         <option value="$PROJECT_DIR$/../Shop-Zuul/src/main/resources/application.yml" />
-        <option value="H:/ideaProjects/j1905_springboot_p2p (2)/j1905_springboot_p2p/src/main/resources/templates/login.html" />
-        <option value="$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/css/default.css" />
-        <option value="$PROJECT_DIR$/../Shop-Admin/src/main/resources/templates/goods.html" />
-        <option value="$PROJECT_DIR$/../Shop-Admin/src/main/resources/templates/adminmain.html" />
-        <option value="$PROJECT_DIR$/../Shop-Admin/src/main/resources/templates/admingoods.html" />
-        <option value="$PROJECT_DIR$/../Shop-Admin/src/main/resources/templates/admininfo.html" />
-        <option value="$PROJECT_DIR$/../Shop-Admin/src/main/java/com/shop/controller/HTMLController.java" />
-        <option value="$PROJECT_DIR$/../Shop-Admin/src/main/resources/templates/main.html" />
-        <option value="$PROJECT_DIR$/../Shop-Admin/src/main/java/com/shop/controller/AdminController.java" />
-        <option value="$PROJECT_DIR$/../Shop-Admin/src/main/resources/templates/adminlogin.html" />
       </list>
     </option>
   </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
   <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven" />
+        <option name="mavenHome" value="E:/maven/软件/apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="E:\maven\软件\apache-maven-3.5.0\conf\settings.xml" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -466,14 +216,14 @@
       <select />
     </treeState>
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="980" />
     <option name="height" value="1040" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -482,9 +232,181 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Shop-Parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shop-Config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shop-Parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shop-Config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shop-Parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shop-Config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shop-Parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shop-Config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shop-Parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shop-Config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shop-Parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shop-Config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shop-Parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shop-Config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shop-Parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shop-Config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="properties" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shop-Parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shop-Parent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shop-Parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shop-Server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shop-Parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shop-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shop-Parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shop-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shop-Parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shop-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shop-Parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shop-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shop-Parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shop-Server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shop-Parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shop-User" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shop-Parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shop-User" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shop-Parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shop-User" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shop-Parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shop-User" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shop-Parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shop-Zuul" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shop-Parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shop-Zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shop-Parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shop-Zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shop-Parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shop-Zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shop-Parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shop-Zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shop-Parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shop-Zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shop-Parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shop-Zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -528,7 +450,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ShopAdminApplication">
+  <component name="RunManager" selected="Application.ShopZuulApplication">
     <configuration name="ShopConfigApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.shop.ShopConfigApplication" />
       <module name="Shop-Config" />
@@ -539,9 +461,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="ShopServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.shop.ShopServerApplication" />
@@ -553,9 +472,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="ShopZuulApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.shop.ShopZuulApplication" />
@@ -567,54 +483,55 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
-    <configuration name="ShopAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="Shop-Admin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.shop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.shop.ShopAdminApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="TestNG">
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <list>
       <item itemvalue="Application.ShopServerApplication" />
       <item itemvalue="Application.ShopConfigApplication" />
       <item itemvalue="Application.ShopZuulApplication" />
-      <item itemvalue="Spring Boot.ShopAdminApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ShopAdminApplication" />
         <item itemvalue="Application.ShopZuulApplication" />
         <item itemvalue="Application.ShopConfigApplication" />
         <item itemvalue="Application.ShopServerApplication" />
@@ -634,456 +551,532 @@
       <workItem from="1573264404277" duration="967000" />
       <workItem from="1573265453761" duration="193000" />
       <workItem from="1573265678885" duration="5214000" />
-      <workItem from="1573280319466" duration="4273000" />
-      <workItem from="1573284658117" duration="8352000" />
-      <workItem from="1573433902538" duration="61345000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80344000" />
+    <option name="totallyTimeSpent" value="6519000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22919819" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.29876542" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.3297587" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23442623" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.7311475" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997175" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2838983" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3295082" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" order="10" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" />
-      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21514745" />
+      <window_info anchor="bottom" id="Problems" />
+      <window_info anchor="right" id="Bean Validation" order="3" weight="0.3297587" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.3297587" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3297587" />
-      <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32980332" />
-      <window_info anchor="right" id="Maven" order="10" weight="0.32980332" />
+      <window_info id="Designer" order="2" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22919819" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34590164" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.7311475" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3295082" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" order="10" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" />
-      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3297587" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
-      <window_info anchor="right" id="Maven" order="10" weight="0.32980332" />
+      <window_info id="Designer" order="0" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="bottom" id="Spring" order="0" />
+      <window_info id="Image Layers" order="1" />
+      <window_info anchor="bottom" id="Run" order="8" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
+      <window_info anchor="right" id="Maven Projects" order="2" weight="0.3297587" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.19906166" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info id="Web" order="5" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="right" id="Bean Validation" order="6" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../Shop-Admin/src/main/java/com/shop/service/impl/AdminServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/../Shop-Server/src/main/java/com/shop/ShopServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+        <state relative-caret-position="308">
+          <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#875#876#0" expanded="true" />
-            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Shop-Admin/src/main/java/com/shop/service/AdminService.java">
+    <entry file="file://$PROJECT_DIR$/../Shop-Config/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        <state relative-caret-position="286">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3168">
+          <caret line="144" column="33" selection-start-line="144" selection-start-column="33" selection-end-line="144" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Shop-Server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Shop-Server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Shop-Server/src/main/java/com/shop/ShopServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Shop-Config/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Shop-Server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Shop-Config/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Shop-Config/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Shop-Zuul/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Shop-Server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Shop-Model/src/main/java/com/shop/domain/Admin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="32" />
+        <state relative-caret-position="330">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Shop-Admin/src/main/java/com/shop/config/ShiroConfig.java">
+    <entry file="file://$PROJECT_DIR$/../Shop-Model/src/main/java/com/shop/domain/AdminPermission.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+        <state relative-caret-position="154">
+          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Shop-Admin/src/main/java/com/shop/shiro/AdminRealm.java">
+    <entry file="file://$PROJECT_DIR$/../Shop-Model/src/main/java/com/shop/domain/ApTable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="154">
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Shop-Admin/src/main/java/com/shop/ShopAdminApplication.java">
+    <entry file="file://$PROJECT_DIR$/../Shop-Model/src/main/java/com/shop/domain/Cart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        <state relative-caret-position="146">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Shop-Zuul/src/main/java/com/shop/filter/JwtFilter.java">
+    <entry file="file://$PROJECT_DIR$/../Shop-Model/src/main/java/com/shop/domain/Comment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-658">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        <state relative-caret-position="110">
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/img/ThreeWebGL.js">
+    <entry file="file://$PROJECT_DIR$/../Shop-Model/src/main/java/com/shop/domain/GfTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Shop-Model/src/main/java/com/shop/domain/GiTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Shop-Model/src/main/java/com/shop/domain/Goods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Shop-Model/src/main/java/com/shop/domain/GoodsInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Shop-Model/src/main/java/com/shop/domain/MenuFoot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Shop-Model/src/main/java/com/shop/domain/MenuTop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Shop-Model/src/main/java/com/shop/domain/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Shop-Model/src/main/java/com/shop/domain/OudTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Shop-Model/src/main/java/com/shop/domain/OuTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Shop-Model/src/main/java/com/shop/domain/Pictrue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Shop-Model/src/main/java/com/shop/domain/SeckillGoods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Shop-Model/src/main/java/com/shop/domain/TfTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Shop-Model/src/main/java/com/shop/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Shop-Model/src/main/java/com/shop/domain/UserDelivery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Shop-Model/src/main/java/com/shop/domain/UudTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Shop-Model/src/main/java/com/shop/utils/AliyunSmsUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2200">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Shop-Model/src/main/java/com/shop/utils/Md5Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-968">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Shop-Model/src/main/java/com/shop/utils/WebUtilsPro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Shop-Model/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Shop-Model/src/main/java/com/shop/utils/AlipayUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-462">
+          <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Shop-Model/src/main/java/com/shop/config/AlipayNotifyParam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Shop-User/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Shop-User/src/main/java/com/shop/ShopUserApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Shop-User/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="586">
+          <caret line="105" column="21" selection-start-line="105" selection-start-column="21" selection-end-line="105" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="86" column="60" selection-start-line="86" selection-start-column="60" selection-end-line="86" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Shop-User/src/main/resources/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2112">
+          <caret line="159" column="19" selection-start-line="159" selection-start-column="19" selection-end-line="159" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Shop-User/src/main/java/com/shop/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Shop-Server/src/main/java/com/shop/ShopServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Shop-User/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Shop-Zuul/src/main/resources/bootstrap.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Shop-Zuul/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+    <entry file="file://$PROJECT_DIR$/../Shop-Config/src/main/java/com/shop/ShopConfigApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="6317" column="4" selection-start-line="6317" selection-start-column="4" selection-end-line="6317" selection-end-column="4" />
+        <state relative-caret-position="352">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Shop-Zuul/src/main/java/com/shop/ShopZuulApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Shop-Config/src/main/resources/properties/neo-config-pro.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Shop-Zuul/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="15" selection-start-line="15" selection-end-line="20" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://H:/ideaProjects/j1905_springboot_p2p (2)/j1905_springboot_p2p/src/main/java/com/qf/j1905/controller/TbUserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="38" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://H:/ideaProjects/j1905_springboot_p2p (2)/j1905_springboot_p2p/src/main/java/com/qf/j1905/controller/CurrentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270" />
-      </provider>
-    </entry>
-    <entry file="file://H:/ideaProjects/j1905_springboot_p2p (2)/j1905_springboot_p2p/src/main/resources/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="67" column="66" selection-start-line="67" selection-start-column="66" selection-end-line="67" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://H:/ideaProjects/j1905_springboot_p2p (2)/j1905_springboot_p2p/src/main/java/com/qf/j1905/controller/SysUserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="20" column="38" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="20" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/js/Treatment.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/layui/layui.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" column="5368" selection-start-line="1" selection-start-column="5368" selection-end-line="1" selection-end-column="5368" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/js/polyfill.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/js/layui.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/js/mockjs-config.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/Tencent Files/693556147/FileRecv/基于layui的后台管理模版/dist/css/kitadmin.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/css/kitadmin.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/js/lay/modules/element.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/img/1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/css/theme/default.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/css/default.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/layui/css/layui.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" column="3230" lean-forward="true" selection-start-line="1" selection-start-column="3230" selection-end-line="1" selection-end-column="3230" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/block.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="248" column="16" selection-start-line="248" selection-start-column="16" selection-end-line="248" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/layui.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-814">
-          <caret line="107" column="2" selection-start-line="107" selection-start-column="2" selection-end-line="107" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/lay/kit_modules/admin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/kitadmin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/web-forms2.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="360" column="22" selection-start-line="360" selection-start-column="22" selection-end-line="360" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Shop-Admin/src/main/resources/mapper/AdminMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/lay/kit_modules/axios.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/js/kitadmin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-309">
-          <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Shop-Admin/src/main/java/com/shop/controller/BaseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/css/theme/blue-dark.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" column="9098" selection-start-line="1" selection-start-column="9098" selection-end-line="1" selection-end-column="9098" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/legacy.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="996" column="18" selection-start-line="996" selection-start-column="18" selection-end-line="996" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Shop-Admin/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="82" column="8" selection-start-line="82" selection-start-column="8" selection-end-line="85" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Shop-Admin/src/main/resources/templates/adminmain.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="196" selection-start-line="196" selection-end-line="201" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../前端/分页/Page/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="33" column="13" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="33" selection-end-column="13" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Shop-Admin/src/main/resources/static/css/layui.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" column="9288" selection-start-line="1" selection-start-column="9288" selection-end-line="1" selection-end-column="9288" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Shop-Admin/src/main/java/com/shop/controller/HTMLController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#548#549#0" expanded="true" />
-            <element signature="e#691#692#0" expanded="true" />
-            <element signature="e#726#727#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Shop-Admin/src/main/resources/templates/admingoods.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-40">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Shop-Admin/src/main/resources/templates/admininfo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Shop-Admin/src/main/resources/templates/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Shop-Admin/src/main/java/com/shop/controller/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="62" column="35" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1252#1253#0" expanded="true" />
-            <element signature="e#1303#1304#0" expanded="true" />
-            <element signature="e#2551#2552#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/Tencent Files/693556147/FileRecv/基于layui的后台管理模版/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3411">
-          <caret line="409" column="6" selection-start-line="409" selection-start-column="6" selection-end-line="409" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/Tencent Files/693556147/FileRecv/非常炫酷的系统登录页/login/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="171" column="115" lean-forward="true" selection-start-line="171" selection-start-column="115" selection-end-line="171" selection-end-column="115" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Shop-Admin/src/main/resources/templates/adminlogin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="180" column="32" selection-start-line="180" selection-start-column="32" selection-end-line="180" selection-end-column="49" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="154">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
         </state>
       </provider>
     </entry>

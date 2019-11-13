@@ -22,6 +22,10 @@ public class Goods  implements Serializable {
 
     private Integer goodsCount;
 
+    private Integer menuFootId;
+
+    private String menuFootName;
+
     public Integer getGoodsId() {
         return goodsId;
     }

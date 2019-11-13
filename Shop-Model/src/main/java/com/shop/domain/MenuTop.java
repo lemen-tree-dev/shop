@@ -10,8 +10,6 @@ public class MenuTop  implements Serializable {
 
     private String menuTopName;
 
-    private String menuFootName;
-
     public Integer getMenuTopId() {
         return menuTopId;
     }
@@ -26,13 +24,5 @@ public class MenuTop  implements Serializable {
 
     public void setMenuTopName(String menuTopName) {
         this.menuTopName = menuTopName == null ? null : menuTopName.trim();
-    }
-
-    public String getMenuFootName() {
-        return menuFootName;
-    }
-
-    public void setMenuFootName(String menuFootName) {
-        this.menuFootName = menuFootName == null ? null : menuFootName.trim();
     }
 }

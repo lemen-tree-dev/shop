@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.shop.dao.MenuMapper">
+    <resultMap id="BaseResultMap" type="com.shop.domain.MenuTop" >
+        <id column="menu_top_id" property="menuTopId" jdbcType="INTEGER" />
+        <result column="menu_top_name" property="menuTopName" jdbcType="CHAR" />
+    </resultMap>
+    <resultMap id="BaseResultMap1" type="com.shop.domain.MenuFoot" >
+        <id column="menu_foot_id" property="menuFootId" jdbcType="INTEGER" />
+        <result column="menu_foot_name" property="menuFootName" jdbcType="CHAR" />
+        <result column="menu_top_name" property="menuTopName" jdbcType="CHAR" />
+    </resultMap>
+    
+    <select id="selectTopMenu" resultMap="BaseResultMap">
+
+        select * from menu_top
+
+    </select>
+
+    <select id="selectFootMenu" parameterType="String" resultMap="BaseResultMap1">
+
+        select * from menu_foot where menu_top_name=#{menuTopName}
+
+    </select>
+
+</mapper>
