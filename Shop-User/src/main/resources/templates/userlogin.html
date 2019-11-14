@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Lowin</title>
+	<link rel="stylesheet" th:href="@{/static/css/auth.css}">
+</head>
+
+<body>
+<div id="box">
+	<div class="lowin">
+		<div class="lowin-brand">
+			<img th:src="@{http://q08ezt0ae.bkt.clouddn.com/FnJRSACJkAtju8gsOl48LFxPy9jO}" alt="logo">
+		</div>
+		<div class="lowin-wrapper"  style="opacity: 0.8;background-color: #44a0b3">
+			<div class="lowin-box lowin-login">
+				<div class="lowin-box-inner">
+					<form th:action="login" method="post" onsubmit="return judge()">
+						<p>Let's create your account</p>
+						<div class="lowin-group">
+							<label>Name/Tel/Email</label>
+							<input type="text" th:name="userName" id="name" autocomplete="name" class="lowin-input">
+						</div>
+						<div class="lowin-group">
+							<label>Password</label>
+							<input id="password" type="password" th:name="userPassword" autocomplete="current-password" class="lowin-input">
+						</div>
+                        <div>
+                            <!-- 滑动验证 -->
+                            <div class="verify-wrap" id="verify-wrap" style="margin-top:0px;width: 100%"></div>
+                            <!-- 状态展示 -->
+                            <div style="text-align: center;width: 350px;margin: 0 auto;text-align: left;margin-top:15px;font-size: 12px;color:red;">
+                                <p>*当前滑动验证状态值：&nbsp;<span id="judgeCode" class="value" style="display: inline-block;width:100px;color:#409EFF;">false</span></p>
+                            </div>
+                        </div>
+						<button class="lowin-btn" th:type="submit" onclick="login()">
+							Login
+						</button>
+
+						<div class="text-foot">
+                            There is no account? <a href="" class="login-link">register</a>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+    <script th:src="@{https://www.jq22.com/jquery/jquery-1.10.2.js}"></script>
+    <script th:src="@{/static/js/slideVerify.js}"></script>
+	<script th:src="@{/static/js/auth.js}"></script>
+    <script th:src="@{/static/js/jquery-2.1.1.min.js}"></script>
+    <script type="text/javascript">
+        $(function(){
+            var SlideVerifyPlug = window.slideVerifyPlug;
+            var slideVerify = new SlideVerifyPlug('#verify-wrap',{
+                wrapWidth:'350',//设置 容器的宽度 ,不设置的话，会设置成100%，需要自己在外层包层div,设置宽度，这是为了适应方便点；
+                initText:'请向右滑动滑块',  //设置  初始的 显示文字
+                sucessText:'验证通过',//设置 验证通过 显示的文字
+                getSuccessState:function(res){
+                    //当验证完成的时候 会 返回 res 值 true，只留了这个应该够用了
+                    console.log(res);
+                    if(slideVerify.slideFinishState){
+                        $('.value').html(slideVerify.slideFinishState)
+                        $('#resetBtn').removeClass('prohibit')
+                    }
+                }
+            });
+            $("#resetBtn").on('click',function(){
+                $('.value').html('false')
+                $('#resetBtn').addClass('prohibit')
+                slideVerify.resetVerify();//可以重置 插件 回到初始状态
+            })
+            $('#resetBtn').addClass('prohibit')
+        })
+		function judge() {
+            var name=$("#name").val();
+            var password=$("#password").val();
+			var code=$("#judgeCode").html();
+			if((name==null||name=="")&&(password==null||password=="")){
+			    return false;
+			}else {
+                if(code=="true"){
+                    return true;
+                }else {
+                    return false;
+                }
+			}
+        }
+	</script>
+</body>
+</html>

@@ -2,6 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Shop-Admin/Shop-Admin.iml" filepath="$PROJECT_DIR$/Shop-Admin/Shop-Admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Shop-Config/Shop-Config.iml" filepath="$PROJECT_DIR$/Shop-Config/Shop-Config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Shop-Model/Shop-Model.iml" filepath="$PROJECT_DIR$/Shop-Model/Shop-Model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Shop-Parent/Shop-Parent.iml" filepath="$PROJECT_DIR$/Shop-Parent/Shop-Parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Shop-Product/Shop-Product.iml" filepath="$PROJECT_DIR$/Shop-Product/Shop-Product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Shop-Server/Shop-Server.iml" filepath="$PROJECT_DIR$/Shop-Server/Shop-Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Shop-User/Shop-User.iml" filepath="$PROJECT_DIR$/Shop-User/Shop-User.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Shop-WebService/Shop-WebService.iml" filepath="$PROJECT_DIR$/Shop-WebService/Shop-WebService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Shop-Zuul/Shop-Zuul.iml" filepath="$PROJECT_DIR$/Shop-Zuul/Shop-Zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/电商.iml" filepath="$PROJECT_DIR$/电商.iml" />
       <module fileurl="file://$PROJECT_DIR$/电商.iml" filepath="$PROJECT_DIR$/电商.iml" />
     </modules>
   </component>

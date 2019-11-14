@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.shop.dao.PictrueMapper" >
+  <resultMap id="BaseResultMap" type="com.shop.domain.Pictrue" >
+    <id column="pictrue_id" property="pictrueId" jdbcType="INTEGER" />
+    <result column="pictrue_info" property="pictrueInfo" jdbcType="CHAR" />
+    <result column="pictrue_url" property="pictrueUrl" jdbcType="CHAR" />
+  </resultMap>
+
+  <sql id="Base_Column_List" >
+    pictrue_id, pictrue_info, pictrue_url
+  </sql>
+
+  <!--
+  public List<Pictrue> selectAll();
+  -->
+  <select id="selectAll" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from pictrue
+  </select>
+
+  <!--
+  public int update(Pictrue pictrue);
+  -->
+  <update id="update" parameterType="java.lang.Integer">
+    update pictrue
+    <set >
+      <if test="pictrueInfo != null" >
+        pictrue_info = #{pictrueInfo,jdbcType=CHAR},
+      </if>
+      <if test="pictrueUrl != null" >
+        pictrue_url = #{pictrueUrl,jdbcType=CHAR},
+      </if>
+    </set>
+    where pictrue_id = #{pictrueId,jdbcType=INTEGER}
+  </update>
+</mapper>

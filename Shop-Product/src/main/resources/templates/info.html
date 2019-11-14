@@ -1,0 +1,334 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>商品详情</title>
+	<link rel="stylesheet" href="css/shouye.css">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/index.css">
+	<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+	<script   src="js/modernizr-custom-v2.7.1.min.js"></script>
+	<script>
+		$(document).ready(function(){
+	var $miaobian=$('.Xcontent08>div');
+	var $huantu=$('.Xcontent06>img');
+	var $miaobian1=$('.Xcontent26>div');
+	$miaobian.mousemove(function(){miaobian(this);});
+	$miaobian1.click(function(){miaobian1(this);});
+	function miaobian(thisMb){
+		for(var i=0; i<$miaobian.length; i++){
+			$miaobian[i].style.borderColor = '#dedede';
+		}
+		thisMb.style.borderColor = '#cd2426';
+
+		$huantu[0].src = thisMb.children[0].src;
+	}
+	function miaobian1(thisMb1){
+		for(var i=0; i<$miaobian1.length; i++){
+			$miaobian1[i].style.borderColor = '#dedede';
+		}
+//		thisMb.style.borderColor = '#cd2426';
+		$miaobian.css('border-color','#dedede');
+		thisMb1.style.borderColor = '#cd2426';
+		$huantu[0].src = thisMb1.children[0].src;
+	}
+			$(".Xcontent33").click(function(){
+			var value=parseInt($('.input').val())+1;
+       		$('.input').val(value);
+		})
+
+		$(".Xcontent32").click(function(){	
+			var num = $(".input").val()
+			if(num>0){
+				$(".input").val(num-1);
+			}			
+			
+		})
+
+		})
+        /*页面加载时*/
+        $(function () {
+            var show_img=document.getElementsByClassName("show_img");
+			var show_name=document.getElementById("show_name");
+			var show_price=document.getElementById("show_price");
+            var info_pic1=document.getElementsByClassName("info_pic1");
+            var video=document.getElementById("video");
+            var show_descr=document.getElementById("show_descr");
+            $.ajax({
+                type: 'post',
+                url:"http://localhost:9000/shop-product/getGoodsInfo?goodsId=3",
+                dataType:"json",
+                success:function (data) {
+					show_img[0].src=data.goodsInfoPic1;
+					show_img[1].src=data.goodsInfoPic1;
+                    show_img[2].src=data.goodsInfoPic2;
+                    show_img[3].src=data.goodsInfoPic3;
+                    show_img[4].src=data.goodsInfoPic2;
+                    show_img[5].src=data.goodsInfoPic1;
+                    video.src=data.goodsInfoVidio;
+                    info_pic1[0].src=data.goodsInfoPic3;
+                    info_pic1[1].src=data.goodsInfoPic2;
+                    info_pic1[2].src=data.goodsInfoPic1;
+                    info_pic1[3].src=data.goodsInfoPic3;
+                    //show_name.innerText =data.goodsInfoDescr;
+					show_descr.innerText=data.goodsInfoDescr;
+
+                }
+            });
+        });
+		function add() {
+            $.ajax({
+                type: 'post',
+                url:"http://localhost:9000/shop-pay/pay?goodsId=1",
+                dataType:"json",
+                success:function (data) {
+
+                }
+            });
+        }
+        function buy() {
+            $.ajax({
+                type: 'post',
+                url:"http://localhost:9000/shop-order/insertCart?goodsId=2",
+                dataType:"json",
+                success:function (data) {
+
+                }
+            });
+        }
+	
+		
+	
+	</script>
+	
+
+</head>
+
+<body>
+<!--headerTop-->
+<div class="header-top">
+	<div class="container clear">
+		<div class="fl">
+			<ul class="clear">
+				<li class="fl navbar-nav" style="padding: 0"><a href="javascript:">小米商城</a> <span>|</span></li>
+				<li class="fl navbar-nav"><a href="javascript:">MIUI </a><span>|</span></li>
+				<li class="fl navbar-nav"><a href="javascript:">米聊 </a> <span>|</span></li>
+				<li class="fl navbar-nav"><a href="javascript:">游戏 </a><span>|</span></li>
+				<li class="fl navbar-nav"><a href="javascript:">小米阅读 </a><span>|</span></li>
+				<li class="fl navbar-nav"><a href="javascript:">小米云服务 </a><span>|</span></li>
+				<li class="fl navbar-nav"><a href="javascript:">小米金融 </a><span>|</span></li>
+				<li class="fl navbar-nav"><a href="javascript:">小米网移动版 </a><span>|</span></li>
+				<li class="fl navbar-nav"><a href="javascript:">问题反馈 </a><span>|</span></li>
+				<li class="fl navbar-nav"><a href="javascript:">Select Region</a></li>
+			</ul>
+		</div>
+		<div class="fr">
+			<a href="javascript:" class="register">登陆</a>
+			<span>|</span>
+			<a href="javascript:" class="login">注册</a>
+			<span>|</span>
+			<a href="javascript:" class="tz">消息通知</a>
+			<a href="javascript:" class="cart">
+				<i class="iconfont cart-mini">&#xe621;</i>
+				购物车（0）
+				<div class="cart-menu">购物车中还没有商品，赶紧选购吧！</div>
+			</a>
+		</div>
+	</div>
+</div>
+<!--navbar-->
+<div class="header-navbar container">
+	<a href="javascript:" class="logo fl">
+		<img class="center" src="img/mi-logo.png" alt="">
+	</a>
+	<div class="nav fl">
+		<ul class="clear nav-item">
+			<li class="fl "><a class="link" href="javascript:"><span class="text">小米手机</span></a></li>
+			<li class="fl"><a class="link" href="javascript:"><span class="text">红米手机</span></a></li>
+			<li class="fl"><a class="link" href="javascript:"><span class="text">平板 · 笔记本</span></a></li>
+			<li class="fl"><a class="link" href="javascript:"><span class="text">电视</span></a></li>
+			<li class="fl"><a class="link" href="javascript:"><span class="text">盒子 · 影音</span></a></li>
+			<li class="fl"><a class="link" href="javascript:"><span class="text">路由器</span></a></li>
+		</ul>
+	</div>
+	<div class="fr clear nav-rt">
+		<form class="search-form">
+			<label for="search">
+			</label>
+			<input id="search" class="search-text">
+			<a href="javascript:" class="search-btn">
+				<span class="iconfont center">&#xe616;</span>
+			</a>
+			<div class="search-words">
+				<a href="javascript:">小米MIX Alpha</a>
+				<a href="javascript:">智能电视</a>
+			</div>
+		</form>
+	</div>
+</div>
+<!--详细描述部分-->
+<div class="Xcontent">
+		<ul class="Xcontent01">
+			
+				<div class="Xcontent06"><img class="show_img" src="" width="429px" height="430px"></div>
+				<ol class="Xcontent08">
+					<div class="Xcontent07"><img class="show_img" src=""></div>
+					<div class="Xcontent09"><img class="show_img"src=""></div>
+					<div class="Xcontent10"><img class="show_img" src=""></div>
+					<div class="Xcontent11"><img class="show_img" src=""></div>
+					<div class="Xcontent12"><img class="show_img" src=""></div>
+				</ol>
+				<ol class="Xcontent13">
+					<div class="Xcontent14"><a href="#"><p id="show_name">小米CC9 Pro</p></a></div>
+					<div class="Xcontent15"><img src="img/shangpinxiangqing/X11.png"></div>
+					<div class="Xcontent16"><p id="show_descr"></p></div>
+					<div class="Xcontent17">
+						<p class="Xcontent18">售价</p>
+						<p class="Xcontent19">￥<span id="show_price">2799.00</span></p>
+						<div class="Xcontent20">
+							<p class="Xcontent21">促销</p>
+							<img src="img/shangpinxiangqing/X12.png">
+							<p class="Xcontent22">领610元新年礼券，满再赠好礼</p>
+						</div>
+						<div class="Xcontent23">
+							<p class="Xcontent24">服务</p>
+							<p class="Xcontent25">30天无忧退货&nbsp;&nbsp;&nbsp;&nbsp;       48小时快速退款 &nbsp;&nbsp;&nbsp;&nbsp;        满88元免邮</p>
+						</div>
+						
+					</div>
+					<div class="Xcontent26">
+						<p class="Xcontent27">颜色</p>
+						<div class="Xcontent28"><img  class="show_img" src="img/shangpinxiangqing/X14.png"></div>
+							<div class="Xcontent29"><img class="show_img" src="img/shangpinxiangqing/X1.png"></div>
+					</div>
+					<div class="Xcontent30">
+						<p class="Xcontent31">数量</p>
+						<div class="Xcontent32"><img src="img/shangpinxiangqing/X15.png"></div>
+						<form>	
+            <input class="input" value="1"></form>
+						<div class="Xcontent33"><img src="img/shangpinxiangqing/16.png"></div>
+
+					</div>
+					<div class="Xcontent34"><a href="#" onclick="add()"><img src="img/shangpinxiangqing/X17.png"></a></div>
+					<div class="Xcontent35"><a href="#" onclick="buy()"><img src="img/shangpinxiangqing/X18.png"></a></div>
+			</ol>
+		</ul>
+	</div>
+<!--概述部分-->
+<div id="infomation" style="margin-left: 9%;margin: 0 auto;width: 82%;height: auto;">
+		<img class="info_pic1" src="" width="100%" height="450px"/>
+	<!--视频播放-->
+	<div class="video">
+			<div class="info_bd" style="border: #9f9f9f 1px solid; border-top: none;">
+				<video id="video" src="" controls style="display: block;width: 100%;height: 400px;"></video>
+			</div>
+	</div>
+	<!--其他信息-->
+		<img class="info_pic1" src="" width="100%" height="450px"/>
+
+		<img class="info_pic1" src="" width="100%" height="450px"/>
+
+		<img class="info_pic1" src="" width="100%" height="450px"/>
+</div>
+
+<!--页脚-->
+<div class="footer">
+	<div class="container">
+		<div class="site-footer">
+			<div class="footer-service">
+				<ul class="list-service clear">
+					<li>
+						<a  href="javascript:"><span class="iconfont">&#xe603;</span>1小时快修服务</a>
+					</li>
+					<li>
+						<a  href="javascript:"><span class="iconfont">&#xe638;</span>7天无理由退货</a>
+					</li>
+					<li>
+						<a  href="javascript:"><span class="iconfont">&#xe605;</span>15天免费换货</a>
+					</li>
+					<li>
+						<a  href="javascript:"><span class="iconfont">&#xe607;</span>满150元包邮</a>
+					</li>
+					<li>
+						<a  href="javascript:"><span class="iconfont">&#xe606;</span>520余家售后网点</a>
+					</li>
+				</ul>
+			</div>
+			<div class="footer-links clear">
+				<dl class="col-links ">
+					<dt>帮助中心</dt>
+					<dd><a  href="javascript:">购物指南</a></dd>
+					<dd><a  href="javascript:">支付方式</a></dd>
+					<dd><a  href="javascript:">配送方式</a></dd>
+				</dl>
+				<dl class="col-links ">
+					<dt>服务支持</dt>
+					<dd><a  href="javascript:">售后政策</a></dd>
+					<dd><a  href="javascript:">自助服务</a></dd>
+					<dd><a  href="javascript:">相关下载</a></dd>
+				</dl>
+				<dl class="col-links ">
+					<dt>小米之家</dt>
+					<dd><a  href="javascript:">小米之家</a></dd>
+					<dd><a  href="javascript:">服务网点</a></dd>
+					<dd><a  href="javascript:">预约服务</a></dd>
+				</dl>
+				<dl class="col-links ">
+					<dt>关于小米</dt>
+					<dd><a  href="javascript:">了解小米</a></dd>
+					<dd><a  href="javascript:">加入小米</a></dd>
+					<dd><a  href="javascript:">联系我们</a></dd>
+				</dl>
+				<dl class="col-links ">
+					<dt>关注我们</dt>
+					<dd> <a  href="javascript:">新浪微博</a></dd>
+					<dd><a  href="javascript:">小米部落</a></dd>
+					<dd><a  href="javascript:">官方微信</a></dd>
+
+				</dl>
+				<dl class="col-links ">
+					<dt>特色服务</dt>
+					<dd><a  href="javascript:">F 码通道</a></dd>
+					<dd><a  href="javascript:">小米移动</a></dd>
+					<dd><a  href="javascript:">防伪查询</a></dd>
+				</dl>
+				<div class="col-contact">
+					<p class="phone">400-000-0000</p>
+					<p>
+						<span class="J_serviceTime-normal" style="">周一至周日 8:00-18:00</span>
+						<br>（仅收市话费）
+					</p>
+					<a class="btn  btn-small" href="javascript:"><span class="iconfont">&#xe615;</span> 24小时在线客服</a>
+				</div>
+			</div>
+		</div>
+		<div class="site-info container">
+			<div class="logo2">
+				<img src="img/logo-footer.png" alt="">
+			</div>
+			<div class="info-text">
+				<p class="sites">
+					<a href="javascript:">小米网</a><span class="sep">|</span>
+					<a href="javascript:">MIUI</a><span class="sep">|</span>
+					<a href="javascript:">米聊</a><span class="sep">|</span>
+					<a href="javascript:">小米书城</a><span class="sep">|</span>
+					<a href="javascript:">小米路由器</a><span class="sep">|</span>
+					<a href="javascript:">视频电话</a><span class="sep">|</span>
+					<a href="javascript:">小米后院</a><span class="sep">|</span>
+					<a href="javascript:">小米天猫店</a><span class="sep">|</span>
+					<a href="javascript:">小米淘宝直营店</a><span class="sep">|</span>
+					<a href="javascript:">小米网盟</a><span class="sep">|</span>
+					<a href="javascript:">问题反馈</a><span class="sep">|</span>
+					<a href="javascript:">Select Region</a>
+				</p>
+				<p>
+					<a href="javascript:">©mmmm
+						<br>
+						除特殊说明，所有数据均出自我司实验室测试</a>
+			</div>
+			<div class="slogan"></div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
