@@ -172,14 +172,14 @@
 							adminPassword: pwd,
 						};
 						$.ajax({
-							type: 'post',
-							url:"http://localhost:9000/shop-admin/admin/selectByName",
-							data: admin,
-							dataType:"json",
-							success:function (data) {
-								if(data==1){
-									alert("登录成功")
-									window.location.href = 'http://localhost:9000/shop-admin/main'
+                                        type: 'post',
+                                        url:"http://localhost:9000/shop-admin/admin/selectByName",
+                                        data: admin,
+                                        dataType:"json",
+                                        success:function (data) {
+                                            if(data==1){
+                                                alert("登录成功")
+                                                window.location.href = 'http://localhost:9000/shop-admin/main'
 								}else if(data==2){
 									ErroAlert("用户名无效");
 								}else if(data==3){
