@@ -14,12 +14,18 @@ import java.util.List;
  */
 @Mapper
 public interface GoodsMapper {
-    //查询所有商品（Goods表）  放入es中进行检索
+    /**
+     * 查询所有商品（Goods表）  放入es中进行检索
+     * @return
+     */
     public List<Goods> selectAll();
 
-    //查询单个商品的详细信息（GoodsInfo + Goods + GITable中间表）
+    /**
+     * 查询单个商品的详细信息（GoodsInfo + Goods + GITable中间表）
+     * @param goodsId
+     * @return
+     */
     public GoodsInfo selectGoodsInfo(Integer goodsId);
-    //增加
 
 
 }

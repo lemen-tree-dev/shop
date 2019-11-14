@@ -3,6 +3,12 @@ server:
 spring:
   application:
     name: shop-user
+  devtools:
+    restart:
+      enabled: true  #设置开启热部署
+  freemarker:
+    cache: false    #页面不加载缓存，修改即时生效
+
 eureka:
   client:
     serviceUrl:
@@ -16,5 +22,6 @@ management:
       cors:
         allowed-origins: "*"
         allowed-methods: "*"
+
 
 

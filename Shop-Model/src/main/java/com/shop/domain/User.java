@@ -3,6 +3,7 @@ package com.shop.domain;
 import lombok.Data;
 
 import java.io.Serializable;
+import java.util.Date;
 
 @Data
 public class User implements Serializable {
@@ -17,6 +18,8 @@ public class User implements Serializable {
     private String userEmail;
 
     private String userPic;
+
+    private Date userCreatetime;
 
     public Integer getUserId() {
         return userId;
@@ -64,5 +67,13 @@ public class User implements Serializable {
 
     public void setUserPic(String userPic) {
         this.userPic = userPic == null ? null : userPic.trim();
+    }
+
+    public Date getUserCreatetime() {
+        return userCreatetime;
+    }
+
+    public void setUserCreatetime(Date userCreatetime) {
+        this.userCreatetime = userCreatetime;
     }
 }

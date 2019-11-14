@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>小米官网</title>
+    <title>大米官网</title>
     <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
@@ -12,7 +13,7 @@
     <div class="container clear">
         <div class="fl">
             <ul class="clear">
-                <li class="fl navbar-nav" style="padding: 0"><a href="javascript:">小米商城</a> <span>|</span></li>
+                <li class="fl navbar-nav" style="padding: 0"><a href="javascript:">大米商城</a> <span>|</span></li>
                 <li class="fl navbar-nav"><a href="javascript:">MIUI </a><span>|</span></li>
                 <li class="fl navbar-nav"><a href="javascript:">米聊 </a> <span>|</span></li>
                 <li class="fl navbar-nav"><a href="javascript:">游戏 </a><span>|</span></li>
@@ -21,11 +22,22 @@
                 <li class="fl navbar-nav"><a href="javascript:">小米金融 </a><span>|</span></li>
                 <li class="fl navbar-nav"><a href="javascript:">小米网移动版 </a><span>|</span></li>
                 <li class="fl navbar-nav"><a href="javascript:">问题反馈 </a><span>|</span></li>
-                <li class="fl navbar-nav"><a href="javascript:">Select Region</a></li>
+                <li class="fl navbar-nav">
+                    <div id="allmap"></div>
+                    <div id="host" style="color:#f25807;font-family:微软雅黑"></div>
+                </li>
                 <li class="fl navbar-nav">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
-                <li class="fl navbar-nav"><img src="https://yangxiaoqi.oss-cn-beijing.aliyuncs.com/636347863925126953.jpg" width="40px" height="40px"></li>
-                <li class="fl navbar-nav"><div id="affiche" style="width: 200px;height: 40px;"><span class="affiche_text">文字滚动文字滚动文字滚动文字-------------------滚动文字滚动文字滚动文字滚动文字滚动文字滚动文字滚动文字滚动文字滚动文字滚动</span></div></li>
+                <li class="fl navbar-nav">
+                    <div class="sunny"></div>
+                    <div class="cloudy"></div>
+                    <div class="rainy"></div>
+                    <div class="snowy"></div>
+                    <div class="rainbow"></div>
+                    <div class="starry"></div>
+                    <div class="stormy"></div>
+                </li>
+                <li class="fl navbar-nav"><div id="affiche" style="width: 200px;height: 40px;"><span id="gundong" class="affiche_text"></span></div></li>
             </ul>
         </div>
         <div class="fr">
@@ -372,11 +384,11 @@
 <div class="container">
     <div class="slider ">
         <ul class='slider-main'>
-            <li><a href="javascript:"><img src="img/slider/1.png" alt=""/></a></li>
-            <li><a href="javascript:"><img src="img/slider/2.png" alt=""/></a></li>
-            <li><a href="javascript:"><img src="img/slider/3.png" alt=""/></a></li>
-            <li><a href="javascript:"><img src="img/slider/4.png" alt=""/></a></li>
-            <li><a href="javascript:"><img src="img/slider/1.png" alt=""/></a></li>
+            <li><a href="javascript:"><img class="lbt" style="height: 460px;width: 1226px" src="" alt=""/></a></li>
+            <li><a href="javascript:"><img class="lbt" style="height: 460px;width: 1226px" src="" alt=""/></a></li>
+            <li><a href="javascript:"><img class="lbt" style="height: 460px;width: 1226px" src="" alt=""/></a></li>
+            <li><a href="javascript:"><img class="lbt" style="height: 460px;width: 1226px" src="" alt=""/></a></li>
+            <li><a href="javascript:"><img class="lbt" style="height: 460px;width: 1226px" src="" alt=""/></a></li>
         </ul>
         <ul class='index'>
             <li class='active'></li>
@@ -391,7 +403,7 @@
         <div class="category">
             <ul id="categoryList" class="category-list clear">
                 <li class="category-item">
-                    <a class="title" href="javascript:">手机 电话卡<span class="iconfont">&#xe63f;</span></a>
+                    <a class="title menutop" onmouseover="menufoot(this.)" href="javascript:"><span class="iconfont">&#xe63f;</span></a>
                     <div class="children clear children-col-2" style="display: none;">
                         <ul class="children-list children-list-col children-list-col-1">
                             <li class="star-goods">
@@ -467,7 +479,7 @@
                     </div>
                 </li>
                 <li class="category-item">
-                    <a class="title" href="javascript:">笔记本 平板<span class="iconfont">&#xe63f;</span></a>
+                    <a class="title menutop" onmouseover="menufoot()" href="javascript:"><span class="iconfont">&#xe63f;</span></a>
                     <div class="children clear children-col" style="display: none;">
                         <ul class="children-list children-list-col">
                             <li>
@@ -501,7 +513,7 @@
                     </div>
                 </li>
                 <li class="category-item">
-                    <a class="title" href="javascript:">电视盒子<span class="iconfont">&#xe63f;</span></a>
+                    <a class="title menutop" onmouseover="menufoot()" href="javascript:"><span class="iconfont">&#xe63f;</span></a>
                     <div class="children clear children-col-3" style="display: none;">
                         <ul class="children-list children-list-col children-list-col-1">
                             <li>
@@ -592,7 +604,7 @@
                     </div>
                 </li>
                 <li class="category-item">
-                    <a class="title" href="javascript:">路由器 智能硬件<span class="iconfont">&#xe63f;</span></a>
+                    <a class="title menutop" onmouseover="menufoot()" href="javascript:"><span class="iconfont">&#xe63f;</span></a>
                     <div class="children clear children-col-2" style="display: none;">
                         <ul class="children-list children-list-col children-list-col-1">
                             <li class="star-goods">
@@ -668,7 +680,7 @@
                     </div>
                 </li>
                 <li class="category-item">
-                    <a class="title" href="javascript:">移动电源 电源 插线板<span class="iconfont">&#xe63f;</span></a>
+                    <a class="title menutop" onmouseover="menufoot()" href="javascript:"><span class="iconfont">&#xe63f;</span></a>
                     <div class="children clear children-col" style="display: none;">
                         <ul class="children-list children-list-col">
                             <li>
@@ -702,7 +714,7 @@
                     </div>
                 </li>
                 <li class="category-item">
-                    <a class="title" href="javascript:">耳机 音响<span class="iconfont">&#xe63f;</span></a>
+                    <a class="title menutop" onmouseover="menufoot()" href="javascript:"><span class="iconfont">&#xe63f;</span></a>
                     <div class="children clear children-col-3" style="display: none;">
                         <ul class="children-list children-list-col children-list-col-1">
                             <li>
@@ -793,7 +805,7 @@
                     </div>
                 </li>
                 <li class="category-item">
-                    <a class="title" href="javascript:">保护套贴膜<span class="iconfont">&#xe63f;</span></a>
+                    <a class="title menutop" onmouseover="menufoot()" href="javascript:"><span class="iconfont">&#xe63f;</span></a>
                     <div class="children clear children-col-2" style="display: none;">
                         <ul class="children-list children-list-col children-list-col-1">
                             <li class="star-goods">
@@ -869,7 +881,7 @@
                     </div>
                 </li>
                 <li class="category-item">
-                    <a class="title" href="javascript:">线材 支架 储存卡<span class="iconfont">&#xe63f;</span></a>
+                    <a class="title menutop" onmouseover="menufoot()" href="javascript:"><span class="iconfont">&#xe63f;</span></a>
                     <div class="children clear children-col" style="display: none;">
                         <ul class="children-list children-list-col">
                             <li>
@@ -903,7 +915,7 @@
                     </div>
                 </li>
                 <li class="category-item">
-                    <a class="title" href="javascript:">箱包 服饰<span class="iconfont">&#xe63f;</span></a>
+                    <a class="title menutop" onmouseover="menufoot()" href="javascript:"><span class="iconfont">&#xe63f;</span></a>
                     <div class="children clear children-col-3" style="display: none;">
                         <ul class="children-list children-list-col children-list-col-1">
                             <li>
@@ -994,7 +1006,7 @@
                     </div>
                 </li>
                 <li class="category-item">
-                    <a class="title" href="javascript:">米兔 周边生活<span class="iconfont">&#xe63f;</span></a>
+                    <a class="title menutop" onmouseover="menufoot()" href="javascript:"><span class="iconfont">&#xe63f;</span></a>
                     <div class="children clear children-col" style="display: none;">
                         <ul class="children-list children-list-col">
                             <li>
@@ -3752,10 +3764,152 @@
                  <a href="javascript:"><img src="img/p5.png"></a>
              </div>
             <div class="slogan"></div>
+
      </div>
  </div>
 </div>
 <script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=9jtZrVg82o0XfYowZqdYxd2es6UGGF2R"></script>
 <script src="js/index.js"></script>
+<script src="http://api.map.baidu.com/library/DrawingManager/1.4/src/DrawingManager_min.js"></script>
+<iframe style="display: none;" id="geoPage" width="100%" height="30%" frameborder=0 scrolling="no"  src="https://apis.map.qq.com/tools/geolocation?key=OB4BZ-D4W3U-B7VVO-4PJWW-6TKDJ-WPB77&referer=myapp&effect=zoom"></iframe>
+<!-- 接收到位置信息后 通过 iframe 嵌入位置标注组件 -->
+<script type="text/javascript">
+    var map = new BMap.Map("allmap");//创建Map实例，注意页面中一定要有个id为allmp的div
+    var point = new BMap.Point(116.331398,39.897445);//创建定坐标
+    map.centerAndZoom(point,12);//// 初始化地图,设置中心点坐标和地图级别
+
+    var geolocation = new BMap.Geolocation();
+    var gc = new BMap.Geocoder();//创建地理编码器
+    // 开启SDK辅助定位
+    geolocation.enableSDKLocation();
+    geolocation.getCurrentPosition(function(r){
+        if(this.getStatus() == BMAP_STATUS_SUCCESS){
+            var mk = new BMap.Marker(r.point);
+            map.addOverlay(mk);
+            map.panTo(r.point);
+            //alert('您的位置：' + r.point.lng + ',' + r.point.lat);
+
+            var pt = r.point;
+            map.panTo(pt);//移动地图中心点
+            //alert(r.point.lng);//X轴
+            //alert(r.point.lat);//Y轴
+
+            gc.getLocation(pt, function(rs){
+                var addComp = rs.addressComponents;
+                //alert(addComp.province + addComp.city + addComp.district + addComp.street + addComp.streetNumber);
+                $("#host").html(addComp.district);
+                //$.ajax("http://localhost:9000/shop-webservice/getWeather",addComp.district);
+                //跨域（可跨所有域名）
+                $.ajax({
+                    type:"post",
+                    url:"http://localhost:9000/shop-webservice/getWeather?localcity="+addComp.city,
+                    data:{ //【这里填写是传给服务端的数据 可传可不传 数据必须是json格式】
+                    },
+                    dataType:'json',  //【这里要小心啊，不要用jsonp，一定是json】
+                    crossDomain: true,  //【这个很重要，一定要加】
+                    success:function(result){
+                        //alert(result.wendu);
+                        $("#gundong").html(result.wendu);
+                        console.log(result);
+                        if(result.wind.match("晴")){
+                            var judge= document.getElementsByClassName('sunny');
+                            judge[0].style.display="block";
+                        }
+                        if(result.wind.match("云")){
+                            var judge= document.getElementsByClassName('cloudy');
+                            judge[0].style.display="block";
+                        }
+                        if(result.wind.match("雨")){
+                            var judge= document.getElementsByClassName('rainy');
+                            judge[0].style.display="block";
+                        }
+                        if(result.wind.match("彩虹")){
+                            var judge= document.getElementsByClassName('rainbow');
+                            judge[0].style.display="block";
+                        }
+                        if(result.wind.match("好")){
+                            var judge= document.getElementsByClassName('starry');
+                            judge[0].style.display="block";
+                        }
+                        if(result.wind.match("雷")){
+                            var judge= document.getElementsByClassName('sunny');
+                            judge[0].style.display="block";
+                        }
+                        if(result.wind.match("雪")){
+                            var judge= document.getElementsByClassName('stormy');
+                            judge[0].style.display="block";
+                        }
+                    },
+                    error:function(result){
+                        console.log(result);
+                    }
+                });
+
+            });
+
+        }
+        else {
+            alert('failed'+this.getStatus());
+        }
+    });
+    function show(){
+        $.ajax({
+            type:"post",
+            url:"http://localhost:9000/shop-product/getTopMenu",
+            data:{ //【这里填写是传给服务端的数据 可传可不传 数据必须是json格式】
+            },
+            dataType:'json',  //【这里要小心啊，不要用jsonp，一定是json】
+            crossDomain: true,  //【这个很重要，一定要加】
+            success:function(result){
+                console.log(result);
+                var manutop=document.getElementsByClassName("menutop");
+                manutop[0].innerHTML=result[0].menuTopName;
+                manutop[1].innerHTML=result[1].menuTopName;
+                manutop[2].innerHTML=result[2].menuTopName;
+                manutop[3].innerHTML=result[3].menuTopName;
+                manutop[4].innerHTML=result[4].menuTopName;
+
+                manutop[5].innerHTML=result[5].menuTopName;
+                manutop[6].innerHTML=result[6].menuTopName;
+                manutop[7].innerHTML=result[7].menuTopName;
+                manutop[8].innerHTML=result[8].menuTopName;
+                manutop[9].innerHTML=result[9].menuTopName;
+            },
+            error:function(result){
+                console.log(result);
+            }
+        });
+    }
+    function showLBT(){
+        $.ajax({
+            type:"post",
+            url:"http://localhost:9000/shop-product/queryLBT",
+            data:{ //【这里填写是传给服务端的数据 可传可不传 数据必须是json格式】
+            },
+            dataType:'json',  //【这里要小心啊，不要用jsonp，一定是json】
+            crossDomain: true,  //【这个很重要，一定要加】
+            success:function(result){
+                console.log(result);
+                var lbt=document.getElementsByClassName("lbt");
+                lbt[0].src=result[0].pictrueUrl;
+                lbt[1].src=result[1].pictrueUrl;
+                lbt[2].src=result[2].pictrueUrl;
+                lbt[3].src=result[3].pictrueUrl;
+                lbt[4].src=result[4].pictrueUrl;
+            },
+            error:function(result){
+                console.log(result);
+            }
+        });
+    }
+    function menufoot(x){
+        alert(x);
+    }
+    $(function(){
+        show();
+        showLBT();
+    });
+</script>
 </body>
 </html>

@@ -14,10 +14,17 @@ import java.util.List;
  */
 @Mapper
 public interface MenuMapper {
-    //一级目录查询(MenuTop 表)
+    /**
+     * 一级目录查询(MenuTop 表)
+     * @return
+     */
     public List<MenuTop> selectTopMenu();
 
-    //二级目录查询(MenuFoot 表)
+    /**
+     * 二级目录查询(MenuFoot 表)
+     * @param menuTopName
+     * @return
+     */
     public List<MenuFoot> selectFootMenu(String menuTopName);
 
 }

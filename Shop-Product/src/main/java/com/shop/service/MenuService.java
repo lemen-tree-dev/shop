@@ -12,10 +12,16 @@ import java.util.List;
  * @date： 2019/11/11 9:19
  */
 public interface MenuService {
-
-    //一级目录查询(MenuTop 表)
+    /**
+     * 一级目录查询(MenuTop 表)
+     * @return
+     */
     public List<MenuTop> selectTopMenu();
 
-    //二级目录查询(MenuFoot 表)
+    /**
+     * 二级目录查询(MenuFoot 表)
+     * @param menuTopName
+     * @return
+     */
     public List<MenuFoot> selectFootMenu(String menuTopName);
 }

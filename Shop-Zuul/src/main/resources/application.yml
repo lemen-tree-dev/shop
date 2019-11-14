@@ -19,6 +19,9 @@ zuul:
     shop-admin:
       path: /static/**
       url: http://localhost:8101/
+    shop-user:
+      path: /static/**
+      url: http://localhost:8001/
 
   host:
       connect-timeout-millis: 100000

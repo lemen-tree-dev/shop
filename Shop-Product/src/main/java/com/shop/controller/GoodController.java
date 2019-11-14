@@ -88,4 +88,5 @@ public class GoodController {
     public String Welcome(){
         return "index";
     }
+
 }

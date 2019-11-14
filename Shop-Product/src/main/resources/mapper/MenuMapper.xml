@@ -11,19 +11,16 @@
     <resultMap id="BaseResultMap1" type="com.shop.domain.MenuFoot" >
         <id column="menu_foot_id" property="menuFootId" jdbcType="INTEGER" />
         <result column="menu_foot_name" property="menuFootName" jdbcType="CHAR" />
+        <result column="menu_foot_pic" property="menuFootPic" jdbcType="CHAR" />
         <result column="menu_top_name" property="menuTopName" jdbcType="CHAR" />
     </resultMap>
     
     <select id="selectTopMenu" resultMap="BaseResultMap">
-
         select * from menu_top
-
     </select>
 
     <select id="selectFootMenu" parameterType="String" resultMap="BaseResultMap1">
-
         select * from menu_foot where menu_top_name=#{menuTopName}
-
     </select>
 
 </mapper>

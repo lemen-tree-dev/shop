@@ -21,10 +21,7 @@ import org.springframework.stereotype.Service;
 import javax.annotation.Resource;
 import java.io.IOException;
 import java.math.BigDecimal;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * @Description:
@@ -101,7 +98,6 @@ public class EsServiceImpl implements EsService {
         int id=goods.getGoodsId();
         UpdateRequest updateRequest = new UpdateRequest("shop_project", "doc", "id");
         Map<String, String> map = new HashMap<>();
-        map.put("pid",String.valueOf(goods.getGoodsId()));
         map.put("goodsName", goods.getGoodsName());
         map.put("goodsPic",goods.getGoodsPic());
         map.put("goodsPrice", String.valueOf(goods.getGoodsPrice()));
@@ -174,7 +170,7 @@ public class EsServiceImpl implements EsService {
 ////        highlightBuilder.postTags("</font>");
 ////        highlightBuilder.fields().add(new HighlightBuilder.Field("name"));
 ////        searchSourceBuilder.highlighter(highlightBuilder);
-        searchSourceBuilder.query(QueryBuilders.multiMatchQuery(str,"pname","pinfomation","days"));
+        searchSourceBuilder.query(QueryBuilders.multiMatchQuery(str,"goodsName","goodsPrice","goodsDescr"));
 
         //source 源字段过滤
 //        searchSourceBuilder.fetchSource(new String[]{"name","studymodel","price","timestamp"},new String[]{});
@@ -195,14 +191,14 @@ public class EsServiceImpl implements EsService {
         for(SearchHit hit:searchHits){
             Goods goods=new Goods();
             Map<String, Object> sourceAsMap= hit.getSourceAsMap();
-            goods.setGoodsId((int)sourceAsMap.get("goodsId"));
             goods.setGoodsName((String)sourceAsMap.get("goodsName"));
             goods.setGoodsDescr((String)sourceAsMap.get("goodsDescr"));
             goods.setGoodsCount((int)sourceAsMap.get("goodsCount"));
-            goods.setGoodsDiscount((long)sourceAsMap.get("goodsDiscount"));
+            Integer goodsDiscount=(Integer) sourceAsMap.get("goodsDiscount");
+            goods.setGoodsDiscount(goodsDiscount.longValue());
             goods.setGoodsPic((String)sourceAsMap.get("goodsPic"));
             goods.setGoodsStock((int)sourceAsMap.get("goodsStock"));
-            goods.setGoodsPrice((BigDecimal) sourceAsMap.get("goodsPrice"));
+            goods.setGoodsPrice(BigDecimal.valueOf(Double.valueOf(sourceAsMap.get("goodsPrice").toString())));
             list.add(goods);
         }
         return list;
@@ -210,7 +206,6 @@ public class EsServiceImpl implements EsService {
 
     @Override
     public List<Goods> search() {
-
         //搜索请求对象
         SearchRequest searchRequest = new SearchRequest("shop_project");
         //设置类型
@@ -249,7 +244,6 @@ public class EsServiceImpl implements EsService {
 ////        highlightBuilder.fields().add(new HighlightBuilder.Field("name"));
 ////        searchSourceBuilder.highlighter(highlightBuilder);
         searchSourceBuilder.query(QueryBuilders.matchAllQuery());
-
         //source 源字段过滤
 //        searchSourceBuilder.fetchSource(new String[]{"name","studymodel","price","timestamp"},new String[]{});
         //设置搜索源
@@ -274,14 +268,15 @@ public class EsServiceImpl implements EsService {
             for (SearchHit hit : searchHits) {
                 Goods goods=new Goods();
                 Map<String, Object> sourceAsMap= hit.getSourceAsMap();
-                goods.setGoodsId((int)sourceAsMap.get("goodsId"));
+                goods.setGoodsId(Integer.valueOf(id));
                 goods.setGoodsName((String)sourceAsMap.get("goodsName"));
                 goods.setGoodsDescr((String)sourceAsMap.get("goodsDescr"));
                 goods.setGoodsCount((int)sourceAsMap.get("goodsCount"));
-                goods.setGoodsDiscount((long)sourceAsMap.get("goodsDiscount"));
+                Integer goodsDiscount=(Integer) sourceAsMap.get("goodsDiscount");
+                goods.setGoodsDiscount(goodsDiscount.longValue());
                 goods.setGoodsPic((String)sourceAsMap.get("goodsPic"));
                 goods.setGoodsStock((int)sourceAsMap.get("goodsStock"));
-                goods.setGoodsPrice((BigDecimal) sourceAsMap.get("goodsPrice"));
+                goods.setGoodsPrice(BigDecimal.valueOf(Double.valueOf(sourceAsMap.get("goodsPrice").toString())));
                 list.add(goods);
             }
         } return list;
